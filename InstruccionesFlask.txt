@@ -1,0 +1,9 @@
+Instalar Flask
+	1. instalar el modulo para python 3 con este comando py -3 -m pip install virtualenv (SOLO 1 VEZ)
+	2. Crear una carpeta para el proyecto mkdir <project name> (SOLO 1 VEZ AL CREAR EL PROYECTO)
+	3. Ir al proyecto cd <project name> (SOLO 1 VEZ AL CREAR EL PROYECTO)
+	4. Crear un entorno virtual python3 -m venv <name of environment> (SOLO 1 VEZ AL CREAR EL PROYECTO)
+	5. Iniciar el entorno virutal <name of environment>/bin/activate (CADA QUE INICIE LA CONSOLA)
+	6. Instalar el FLASK pip install Flask (UNA SOLA VEZ AL CREAR EL ENTORNO VIRUTAL)
+	7. Exportar la aplicacion como variable de entorno export setx FLASK_APP "hello.py" (1 SOLA VEZ CUANDO VAYA A PROBAR)
+	8. RUN FLASK
